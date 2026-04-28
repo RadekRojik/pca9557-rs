@@ -17,3 +17,7 @@ readme = "README.md"
 
 [dependencies]
 embedded-hal = "1.0.0"
+
+[lib]
+name = "pca9557"
+path = "src/lib.rs"
