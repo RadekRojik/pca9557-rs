@@ -2,6 +2,18 @@
 name = "pca9557-rs"
 version = "0.1.0"
 edition = "2024"
+authors = ["Radek Rojik aka Ramael"]
+autobenches = false
+autobins = false
+autoexamples = false
+autolib = false
+autotests = false
+build = false
+categories = ["embedded", "no-std", "hardware-support"]
+description = "An epander driver for PCA9557"
+keywords = ["pca9557", "embedded-hal"]
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 embedded-hal = "1.0.0"
