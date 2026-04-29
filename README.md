@@ -11,7 +11,7 @@ The PCA9557 provides:
 - configuration register
 - per-pin input/output direction control
 
-The chip powers up with all pins configured as inputs. The datasheet defines four 8-bit registers: input port `0x00`, output port `0x01`, polarity inversion `0x02`, and configuration `0x03`. Configuration bit `1` means input, bit `0` means output. :contentReference[oaicite:0]{index=0}
+The chip powers up with all pins configured as inputs. The datasheet defines four 8-bit registers: input port `0x00`, output port `0x01`, polarity inversion `0x02`, and configuration `0x03`. Configuration bit `1` means input, bit `0` means output.
 
 ## Status
 
